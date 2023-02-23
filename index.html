@@ -6,28 +6,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DUNKIN' - All-Day Coffee & Donut Destination</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="javascript/popup.js" defer></script>
 </head>
 <body>
-    <header>
-        logo
-        <nav>
-            <ul>
-                <li><a href=""></a>menu</li>
-                <li><a href=""></a>locations</li>
-                <li><a href=""></a>our story</li>
-                <li><a href=""></a>delivery</li>
-                <li><a href=""></a>careers</li>
-            </ul>
-        </nav>
-    </header>
+    <div id="stickynav" style="height: 106.4px">
+        <header class="site-header">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="https://dunkin.co.uk/">
+                        <img width="155" src="images/logo.png" alt="dunkin logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">menu</a>
+                            <ul class="dropdown">
+                                <li><a href="">The month of love</a></li>
+                                <li><a href="donuts.html">donuts</a></li>
+                                <li><a href="">munchkins</a></li>
+                                <li><a href="">hot drinks</a></li>
+                                <li><a href="">cold drinks</a></li>
+                                <li><a href="">bakery</a></li>
+                            </ul>
+                        </li>
+                        <li class="stroke"><a href="#">locations</a></li>
+                        <li class="stroke"><a href="#">our story</a></li>
+                        <li class="stroke"><a href="#">delivery</a></li>
+                        <li class="stroke"><a href="#">careers</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>   
+<script src="javascript/navigation.js"></script>
     <main>
-        
-        
-    </main>
-
-    <div></div>
-
-    <footer></footer>
-
+        <div class="slideshow-container">     
+            <div onmouseenter="pauseSlides()" onmouseleave="startSlides()" class="slider">    
+              <!--Slide 1-->
+              <div class="mySlides fade">
+                <img src="images/donutslider1.webp">
+              </div> 
+              <!--Slide 2-->
+              <div class="mySlides fade">
+                <img src="images/donutslider2.jpg">
+              </div>
+              <!--Slide 3-->
+              <div class="mySlides fade">
+                <img src="images/donutslider3.jpg">
+              </div>
+              <!--Silde 4-->
+              <div class="mySlides fade">
+                <img src="images/donutslider4.jpg">
+              </div>
+            </div>
+            <div class="slideshow-nav">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+             </div> 
+          </div>
+    <script src="javascript/gallery.js"></script>
+    <br>
+    <br>
+        <div class="reklame1"><img src="images/reklamebillede1.jpg" alt="Month of love"></div>
+        <br>
+        <hr>
+        <br>
+        <div class="container1">
+            <div class="mobiltlf"><img src="images/app-phone-small.png" alt="Billede af iphone"></div>
+            <div class="tekstboks1">
+                <h2 class="overskrift">NEW DUNKIN'&nbsp;<span class="overskrift1">APP</span></h2>
+                <p class="tekst">Collect Loyalty Stamps, receive vouchers,
+                    promotions and more!</p>
+            </div>
+            <button class="knap1">Learn more</button>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container2">
+            <div>
+                <h2 class="overskrift">Variety is the&nbsp;<span class="overskrift1">spice of life</span></h2>
+                <p class="tekst">We've created thousands of donut varieties and we're
+                    honoured to serve donuts that celebrate our local culture</p>
+            </div>
+            <div class="dounutboks"><img src="images/homepage-box.png" alt="Billede af donutboks"></div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container3">
+            <div class="dunkindellogo"><img src="images/dunkin-delivers-1.png" alt="Billede af Dunkin' Deliveries"></div>
+            <br>
+            <div>
+                <h3 class="overskrift2">ORDER NOW</h3>
+                <p class="tekst">In need of a Coffee and Donut fix? We've got your back!
+                    Our partnership with Uber Eats and Deliveroo means
+                    your favourites delivered straight to your door!</p>
+            </div>
+            <br>
+            <button class="knap2">Learn more</button>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container4">
+            <div class="coffee"><img src="images/homepage-coffee.png" alt="Billede af kaffe"></div>
+            <div>
+                <h2 class="overskrift">Picky and&nbsp;<span class="overskrift1">proud of it</span></h2>
+                <p class="tekst">Our tasters use factors like climate, altitude, and species to select coffees that meet our standard</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container5">
+            <div class="box1">
+                <img src="images/teamperson.png" alt="Person ikon" style="width: 80.79px; height: 100px;"> 
+                <h2>CAREERS</h2>
+                <p>Would you like to join the DUNKIN' team?<br>Take a look to see if we are recruiting in your area.</p>
+                <button class="knap3">MORE INFO</button>
+            </div>
+            
+            <div class="box2">
+                <img src="images/locations.svg" alt="Lokations ikon" style="width: 76.06px.79px; height: 100px;">
+                <h2>LOCATIONS</h2>
+                <p>We can't wait to see you! Visit the store locations
+                    page to find out more about your local DUNKIN' store
+                </p>
+                <button class="knap4">FIND HERE</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+</main>
+    
+<div id="scroll">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+</div>
+<script src="javascript/scroll.js"></script>
 </body>
 </html>
